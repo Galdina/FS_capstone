@@ -1,7 +1,7 @@
 # Find your recipe
 ----------------
 ## Recommendation system project for cooking recipes 
-![](/images/You-May-Also-Like.png.png)
+![](/images/You-May-Also-Like.png)
 
 Cooking is a hobby for some and a major problem for others. However, you can always use a helping hand for cooking. 
 Being a mom of two, it is always a difficult decision to decide what to prepare for lunch or dinner. 
@@ -20,6 +20,7 @@ User will enter ingredients they have on hand, and the code will recommend the b
 - Data for this project extracted from web-site food.com and Kaggle
 - There are more than 150,000 recipes from more than 10  worlds cuisines
 - All recipes contain information about ingredients, steps, time for preparation and etc.
+![](images/usa.png 'recipes')
 
 ### Methodology:
 
