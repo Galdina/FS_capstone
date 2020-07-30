@@ -1,6 +1,7 @@
 # Find your recipe
 ----------------
 ## Recommendation system project for cooking recipes 
+![](/images/You-May-Also-Like.png.png)
 
 Cooking is a hobby for some and a major problem for others. However, you can always use a helping hand for cooking. 
 Being a mom of two, it is always a difficult decision to decide what to prepare for lunch or dinner. 
@@ -15,7 +16,10 @@ This project is created in hopes to support homecooks in cooking quick and delic
 User will enter ingredients they have on hand, and the code will recommend the best meal based on that. 
 
 ### Dataset:
-![](/img/conf.png)
+
+- Data for this project extracted from web-site food.com and Kaggle
+- There are more than 150,000 recipes from more than 10  worlds cuisines
+- All recipes contain information about ingredients, steps, time for preparation and etc.
 
 ### Methodology:
 
@@ -33,12 +37,13 @@ User will enter ingredients they have on hand, and the code will recommend the b
 
 ### Results:
  
-![](images/confusion_matrix_vgg16.png 'Confusion Matrix')
+![](images/result.png 'KNN results')
 
 
 ### Conclusion
 
-In addition, when we deal with medical diagnosis, a false positive (i.e. prediciting illness when the patient is healthy) is less critical than a false negative (predicting healthiness when the patient is sick). The number of false negatives obtained with the CNN presented here is extremely low, which positions the machine developed here as a reliable ancillary tool for pneumonia detection.
+In ideal situation users tells the recommender program what ingredients they have on hand and it given the best meal recipes. My recommendation system can give them only 75% of accuracy.
+
 
 ### Future Work
 - Create an web-app or mobile app for my project
